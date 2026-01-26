@@ -1,0 +1,23 @@
+{
+  "name": "currency-detector",
+  "version": "3.0.0",
+  "description": "Detect user country and currency using IP address (100% free)",
+  "main": "dist/currency-detector.umd.js",
+  "module": "dist/currency-detector.esm.js",
+  "browser": "dist/currency-detector.umd.js",
+  "scripts": {
+    "build": "node api.js && rollup -c"
+  },
+  "keywords": [
+    "currency-detector",
+    "ip-detect",
+    "country-detect",
+    "currency-code",
+    "geo-pricing"
+  ],
+  "author": "Ahteshamul Hasan",
+  "license": "MIT (Free for commercial use) || @ 2026 Ahteshamul Hasan",
+  "devDependencies": {
+    "rollup": "^4.0.0"
+  }
+}
